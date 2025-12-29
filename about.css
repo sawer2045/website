@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(135deg, rgb(161, 29, 161), rgb(235, 95, 118));
+    background-attachment: fixed;
+    text-align: center;
+    display: inline;
+}
+
+div{
+    background: linear-gradient(135deg, purple,rgb(255, 168, 182));
+    border: 3px solid #000000;
+    margin: 30px;
+    border-radius: 30cm;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}

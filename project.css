@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(135deg, rgb(161, 29, 161), rgb(235, 95, 118));
+    background-attachment: fixed;
+    text-align: center;
+    display: inline;
+}
+
+div{
+    background: linear-gradient(135deg, purple,rgb(255, 168, 182));
+    border: 3px solid #000000;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.d1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.project1{
+    width: 70%;
+    transition:  transform 0.3s, background-color 0.3s ease;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+img{
+    display: inline;
+    border-radius: 10px;
+    padding: 0px;
+    border: 3px solid #000000;
+}
+
+h3 {
+    display: inline;
+    width: 58%;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    background: linear-gradient(135deg, purple,rgb(255, 168, 182));
+    transition:  transform 0.3s, background-color 0.3s ease;
+
+}
+
+h4{
+    display: inline;
+    width: 58%;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    background: linear-gradient(135deg, purple,rgb(255, 168, 182));
+}
+
+.project1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px white;
+
+}
+
+h3:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px white;
+
+}
